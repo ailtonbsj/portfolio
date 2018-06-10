@@ -1,4 +1,10 @@
 [{
+    "name" : "Crede News",
+    "type" : "WebApp / WebCrawler",
+    "src" : "credenews",
+    "len" : "2",
+    "date" : "June 2018"
+},{
     "name" : "Proxy Linux",
     "type" : "Desktop Tool / App Linux",
     "src" : "proxylinux",
@@ -10,36 +16,37 @@
     "src" : "situationroom",
     "len" : "3",
     "date" : "November 2017"
-},
-{
+},{
     "name" : "Lubuntu Likeawin",
     "type" : "Linux Distro / Remaster",
     "src" : "likeawin",
     "len" : "1",
     "date" : "August 2017"
-},
-{
+},{
     "name" : "FastSkoob",
     "type" : "WebCrawler / WebApp",
     "src" : "fastskoob",
     "len" : "3",
     "date" : "June 2017"
-},
-{
+},{
     "name" : "Orkidea StockControl",
     "type" : "WebApp / Management",
     "src" : "stockcontrol",
     "len" : "4",
     "date": "June 2017"
-},
-{
+},{
     "name" : "Sports Odds",
     "type" : "WebApp / Freela",
     "src" : "sportsodds",
     "len" : "4",
     "date" : "March 2017"
-},
-{
+},{
+    "name" : "AppTabu",
+    "type" : "Mobile App / Android",
+    "src" : "apptabu",
+    "len" : "3",
+    "date" : "January 2015"
+},{
     "name" : "ScholarEvents",
     "type" : "WebApp / Management",
     "src" : "scholarevents",
@@ -59,4 +66,10 @@
     "src" : "secitif",
     "len" : "8",
     "date" : "November 2012"
+},{
+    "name" : "Apprenda English",
+    "type" : "Mobile App / Android",
+    "src" : "apprendaenglish",
+    "len" : "3",
+    "date" : "June 2012"
 }]
