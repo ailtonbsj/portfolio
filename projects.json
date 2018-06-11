@@ -52,15 +52,19 @@
     "src" : "scholarevents",
     "len" : "4",
     "date" : "December 2014"
-},
-{
+},{
     "name" : "Internship Manager",
     "type" : "Desktop App / Management",
     "src" : "internshipmanager",
     "len" : "3",
     "date" : "June 2014" 
-},
-{
+},{
+    "name" : "Robodeck Simulation",
+    "type" : "Desktop App / Simulator",
+    "src" : "robodecksimulation",
+    "len" : "2",
+    "date" : "February 2013"
+},{
     "name" : "SECITIF Site",
     "type" : "WebApp / WebSite",
     "src" : "secitif",
@@ -72,4 +76,10 @@
     "src" : "apprendaenglish",
     "len" : "3",
     "date" : "June 2012"
+},{
+    "name" : "Tetris Game",
+    "type" : "WebApp / Android",
+    "src" : "tetrises5",
+    "len" : "1",
+    "date" : "January 2012"
 }]
