@@ -41,6 +41,12 @@
     "len" : "4",
     "date" : "March 2017"
 },{
+    "name" : "Smart cars for Freescale Cup",
+    "type" : "Mechatronics / Algorithms",
+    "src" : "smartcar-freescale",
+    "len" : "1",
+    "date" : "September 2018"
+},{
     "name" : "AppTabu",
     "type" : "Mobile App / Android",
     "src" : "apptabu",

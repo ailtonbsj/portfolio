@@ -16,6 +16,11 @@
     animation-duration: 0.4s;
 }
 
+.w3c-footer-modal a {
+    color: blue;
+    text-decoration: underline;
+}
+
 /* Modal Content */
 .w3c-footer-modal-content {
     position: fixed;
