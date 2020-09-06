@@ -1,4 +1,10 @@
 [{
+    "name" : "Supervisory IoT",
+    "type" : "WebApp / Management",
+    "src" : "iot-supervisory",
+    "len" : "4",
+    "date" : "February 2019"
+},{
     "name" : "Crede News",
     "type" : "WebApp / WebCrawler",
     "src" : "credenews",
