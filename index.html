@@ -1,220 +1,243 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ailtonbsj</title>
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="portfolio of ailtonbsj.">
 
-        <link rel="stylesheet" href="style.css">
-        <!-- Custom Fonts -->
-        <link href="fonts/Montserrat.css" rel="stylesheet" type="text/css">
-        <link href='fonts/KaushanScript.css' rel='stylesheet' type='text/css'>
-        <link href='fonts/DroidSerif.css' rel='stylesheet' type='text/css'>
-        <link href='fonts/Roboto.css' rel='stylesheet' type='text/css'>
-        <!-- CSS Libs -->
-        <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-        <link href="lib/w3c-footer-modal/style.css" rel="stylesheet" type="text/css">
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:/ -->
-        <!--[if lt IE 9]>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ailtonbsj</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="portfolio of ailtonbsj.">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Custom Fonts -->
+    <link href="fonts/Montserrat.css" rel="stylesheet" type="text/css">
+    <link href='fonts/KaushanScript.css' rel='stylesheet' type='text/css'>
+    <link href='fonts/DroidSerif.css' rel='stylesheet' type='text/css'>
+    <link href='fonts/Roboto.css' rel='stylesheet' type='text/css'>
+    <!-- CSS Libs -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="lib/w3c-footer-modal/style.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:/ -->
+    <!--[if lt IE 9]>
         <script src="https:/oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https:/oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
-    <body id="page-top" class="index">
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+</head>
+
+<body id="page-top" class="index">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">ailton b.s,j</a>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">ailton b.s,j</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Whoami</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <template id="portfolio-grid-tmp">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="x.png" class="img-responsive img-centered" alt="" style="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
                 </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
+            </template>
+            <div id="portfolio-grid" class="row">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">José Ailton B. da Silva</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm-4"></div>
+
+                        <div class="col-sm-4">
+                            <div class="team-member">
+                                <img src="img/me.jpg" class="img-responsive img-circle" alt="">
+                                <h4></h4>
+                                <p class="text-muted">I'm a General Programmer and Mechatronic.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; ailton b.s,j</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+
+                        <li><a href="http://twitter.com/ailtonbsj" target="_blank"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li>
-                            <a class="page-scroll" href="#portfolio">Portfolio</a>
+
+                        <li><a href="https://www.facebook.com/people/José-Ailton/100014067889414" target="_blank"><i
+                                    class="fa fa-facebook"></i></a></li>
+
+                        <li><a href="http://instagram.com/ailtonbsj_" target="_blank"><i
+                                    class="fa fa-instagram"></i></a></li>
+
+                        <li><a href="https://youtube.com/JoseAiltonBS" target="_blank"><i class="fa fa-youtube"></i></a>
                         </li>
-                        <li>
-                            <a class="page-scroll" href="#contact">Whoami</a>
+
+                        <li><a href="http://github.com/ailtonbsj" target="_blank"><i class="fa fa-github"></i></a>
                         </li>
+
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-        <!-- Portfolio Grid Section -->
-        <section id="portfolio" class="bg-light-gray">
-            <div class="container">
-            	<template id="portfolio-grid-tmp">
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="x.png" class="img-responsive img-centered" alt="" style="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Dreams</h4>
-                            <p class="text-muted">Website Design</p>
-                        </div>
-                    </div>
-            	</template>
-                <div id="portfolio-grid" class="row">
+                <div class="col-md-4">
+                    <span class="copyright">
+                        <a href="http://ailtonbsj.herokuapp.com/politics.html">Privacy Policy</a>
+                    </span>
                 </div>
             </div>
-        </section>
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <h2 class="section-heading">José Ailton B. da Silva</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            
-                            <div class="col-sm-4"></div>
-                            
-                            <div class="col-sm-4">
-                                <div class="team-member">
-                                    <img src="img/me.jpg" class="img-responsive img-circle" alt="">
-                                    <h4></h4>
-                                    <p class="text-muted">I'm a General Programmer and Mechatronic.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="col-sm-4"></div>
-                            
-                        </div>
-                    </div>
-                </div>
+        </div>
+    </footer>
+
+    <!-- W3c footer modal VIEW BEGIN -->
+    <div class="w3c-footer-modal">
+        <div class="w3c-footer-modal-content">
+            <div class="w3c-footer-modal-header">
+                <span class="w3c-footer-close">&times;</span>
             </div>
-        </section>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <span class="copyright">Copyright &copy; ailton b.s,j</span>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline social-buttons">
-                            
-                        <li><a href="http://twitter.com/ailtonbsj" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        
-                        <li><a href="https://www.facebook.com/people/José-Ailton/100014067889414" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <div class="w3c-footer-modal-body">
+            </div>
+        </div>
+        <!-- W3c footer modal VIEW END -->
 
-                        <li><a href="http://instagram.com/ailtonbsj_" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                    
-                    	<li><a href="https://youtube.com/JoseAiltonBS" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                
-                <li><a href="http://github.com/ailtonbsj" target="_blank"><i class="fa fa-github"></i></a>
-            </li>
-            
-        </ul>
-    </div>
-    <div class="col-md-4">
-        <span class="copyright">
-            <a href="http://ailtonbsj.herokuapp.com/politics.html">Privacy Policy</a>
-        </span>
-    </div>
-</div>
-</div>
-</footer>
+        <!-- Javascript libs -->
+        <script src="lib/jquery/jquery-1.11.0.js"></script>
+        <script src="lib/bootstrap/bootstrap.min.js"></script>
+        <script src="lib/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="lib/w3c-footer-modal/w3c-footer-modal.js"></script>
 
-<!-- W3c footer modal VIEW BEGIN -->
-<div class="w3c-footer-modal">
-  <div class="w3c-footer-modal-content">
-    <div class="w3c-footer-modal-header">
-      <span class="w3c-footer-close">&times;</span>
-    </div>
-    <div class="w3c-footer-modal-body">
-    </div>
-</div>
-<!-- W3c footer modal VIEW END -->
+        <script type="text/javascript">
+            var projectTmp = document.getElementById('portfolio-grid-tmp').content;
+            var projectGrid = $('#portfolio-grid');
+            var modalFooter = document.getElementsByClassName("w3c-footer-modal")[0];
+            var footerBody = document.getElementsByClassName("w3c-footer-modal-body")[0];
 
-<!-- Javascript libs -->
-<script src="lib/jquery/jquery-1.11.0.js"></script>
-<script src="lib/bootstrap/bootstrap.min.js"></script>
-<script src="lib/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="lib/w3c-footer-modal/w3c-footer-modal.js"></script>
+            function createCard(idProject, project, parentGrid, templatePjt) {
+                templatePjt.querySelector('a').setAttribute('id', 'pjt' + idProject);
+                templatePjt.querySelector('a').setAttribute('href', '#portfolioModal' + idProject);
+                templatePjt.querySelector('h4').innerHTML = project.name;
+                templatePjt.querySelector('.text-muted').innerHTML = project.type;
+                templatePjt.querySelector('img').src = 'projects/' + project.src + '/0.png';
+                parentGrid.append(templatePjt.cloneNode(true));
+            }
 
-<script type="text/javascript">
-    var projectTmp = document.getElementById('portfolio-grid-tmp').content;
-    var projectGrid = $('#portfolio-grid');
-    var modalFooter = document.getElementsByClassName("w3c-footer-modal")[0];
-    var footerBody = document.getElementsByClassName("w3c-footer-modal-body")[0];
+            function createLightBox(idProject, project, parentGrid) {
+                var imgItem = [];
+                for (var i = 0; i < project.len; i++) {
+                    imgItem[i] = {
+                        src: 'projects/' + project.src + '/' + i + '.png',
+                        title: project.name + " <a class=\"more-info-footer\" href=\"javascript:moreInfo('" + idProject + "');\">[ + info ]</a>"
+                    };
+                }
+                parentGrid.children().last().children().first().magnificPopup({
+                    items: imgItem,
+                    gallery: { enabled: true },
+                    type: 'image',
+                    callbacks: {
+                        open() {
+                            if(route[1] == 'info') {
+                                moreInfo(idProject)
+                            }
+                        },
+                        close() {
+                            route[1] = undefined
+                        }
+                    }
+                });
+            }
 
-    function createCard(idProject, project, parentGrid, templatePjt) {
-        templatePjt.querySelector('a').setAttribute('id', '#portfolioModal'+idProject);
-        templatePjt.querySelector('a').setAttribute('href', '#portfolioModal'+idProject);
-        templatePjt.querySelector('h4').innerHTML = project.name;
-        templatePjt.querySelector('.text-muted').innerHTML = project.type;
-        templatePjt.querySelector('img').src = 'projects/' + project.src + '/0.png';
-        parentGrid.append(templatePjt.cloneNode(true));
-    }
+            function moreInfo(idProject) {
+                modalFooter.style.display = "block";
+                document.getElementById("more-info-content-" + idProject).style.display = "block";
+            }
 
-    function createLightBox(idProject, project, parentGrid) {
-        var imgItem = [];
-        for(var i = 0; i < project.len; i++){
-            imgItem[i] = {
-                src: 'projects/' + project.src+'/'+i+'.png',
-                title: project.name+" <a class=\"more-info-footer\" href=\"javascript:moreInfo('"+idProject+"');\">[ + info ]</a>"
-            };
-        }
-        parentGrid.children().last().magnificPopup({
-            items: imgItem, gallery : { enabled: true },
-            type: 'image'
-        });
-    }
+            function createFooterModal(idProject, project, footerModalBody) {
+                var moreInfoContent = document.createElement('div');
+                moreInfoContent.setAttribute('id', 'more-info-content-' + idProject);
+                moreInfoContent.className = "more-info-content";
+                moreInfoContent.style.display = "none";
+                $(moreInfoContent).load('projects/' + project.src + '/readme.html', function () {
+                    moreInfoContent.innerHTML = "<h3>" + project.name + "</h3>" + moreInfoContent.innerHTML +
+                        "<p><i><b>Data: </b>" + project.date + "</i></p>";
+                });
+                footerModalBody.appendChild(moreInfoContent);
+            }
 
-    function moreInfo(idProject) {
-        modalFooter.style.display = "block";
-        document.getElementById("more-info-content-"+idProject).style.display = "block";
-    }
+            function addNewProject(idProject, project) {
+                createCard(idProject, project, projectGrid, projectTmp);
+                createLightBox(idProject, project, projectGrid);
+                createFooterModal(idProject, project, footerBody);
+            }
 
-    function createFooterModal(idProject, project, footerModalBody) {
-        var moreInfoContent = document.createElement('div');
-        moreInfoContent.setAttribute('id','more-info-content-'+idProject);
-        moreInfoContent.className = "more-info-content";
-        moreInfoContent.style.display = "none";
-        $(moreInfoContent).load('projects/'+project.src+'/readme.html', function(){
-            moreInfoContent.innerHTML = "<h3>"+ project.name +"</h3>" + moreInfoContent.innerHTML + 
-            "<p><i><b>Data: </b>"+ project.date +"</i></p>";
-        });
-        footerModalBody.appendChild(moreInfoContent);
-    }
-
-    function addNewProject(idProject, project){
-        createCard(idProject, project, projectGrid, projectTmp);
-        createLightBox(idProject, project, projectGrid);
-        createFooterModal(idProject, project, footerBody);
-    }
-
-    //ajax get list of projects
-	var jqxhr = $.getJSON( "projects.json").fail(function(jqXHR, textStatus, errorThrown) {
-		console.log(textStatus, errorThrown);
-	}).done(function(projects) {
-		for(index in projects) {
-			addNewProject(index,projects[index]);
-		}
-	});
-</script>
+            //ajax get list of projects
+            var route
+            var jqxhr = $.getJSON("projects.json")
+                .fail(function (jqXHR, textStatus, errorThrown) {
+                    console.log(textStatus, errorThrown);
+                }).done(function (projects) {
+                    for (index in projects) {
+                        addNewProject(index, projects[index]);
+                    }
+                    route = window.location.hash.replace('#','').split('/')
+                    $('#pjt'+route[0]).click()
+                });
+        </script>
 </body>
+
 </html>
