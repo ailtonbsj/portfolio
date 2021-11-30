@@ -18,6 +18,45 @@
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="lib/w3c-footer-modal/style.css" rel="stylesheet" type="text/css">
+    <style>
+        .btn {
+            color: white !important;
+            text-decoration: none !important;
+            padding: 5px 10px;
+            margin: 0 0 5px 0;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .blue {
+            background-color: #007bff;
+        }
+
+        .green {
+            background-color: #28a745;
+        }
+
+        .gray {
+            background-color: #6c757d;
+        }
+
+        .red {
+            background-color: #dc3545;
+        }
+
+        .yellow {
+            background-color: #ffc107;
+        }
+
+        
+    </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:/ -->
     <!--[if lt IE 9]>
@@ -88,7 +127,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">José Ailton B. da Silva</h2>
+                            <h2 class="section-heading">José Ailton</h2>
                         </div>
                     </div>
                     <div class="row">
@@ -99,7 +138,7 @@
                             <div class="team-member">
                                 <img src="img/me.jpg" class="img-responsive img-circle" alt="">
                                 <h4></h4>
-                                <p class="text-muted">I'm a General Programmer and Mechatronic.</p>
+                                <p class="text-muted">I'm a Full Stack Developer.</p>
                             </div>
                         </div>
 
@@ -118,6 +157,14 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
+                        <li><a href="http://github.com/ailtonbsj" target="_blank"><i class="fa fa-github"></i></a>
+                        </li>
+
+                        <li><a href="https://youtube.com/JoseAiltonBS" target="_blank"><i class="fa fa-youtube"></i></a>
+                        </li>
+
+                        <li><a href="http://instagram.com/ailtonbsj_" target="_blank"><i
+                                    class="fa fa-instagram"></i></a></li>
 
                         <li><a href="http://twitter.com/ailtonbsj" target="_blank"><i class="fa fa-twitter"></i></a>
                         </li>
@@ -125,14 +172,6 @@
                         <li><a href="https://www.facebook.com/people/José-Ailton/100014067889414" target="_blank"><i
                                     class="fa fa-facebook"></i></a></li>
 
-                        <li><a href="http://instagram.com/ailtonbsj_" target="_blank"><i
-                                    class="fa fa-instagram"></i></a></li>
-
-                        <li><a href="https://youtube.com/JoseAiltonBS" target="_blank"><i class="fa fa-youtube"></i></a>
-                        </li>
-
-                        <li><a href="http://github.com/ailtonbsj" target="_blank"><i class="fa fa-github"></i></a>
-                        </li>
 
                     </ul>
                 </div>
@@ -170,7 +209,7 @@
 
             function createCard(idProject, project, parentGrid, templatePjt) {
                 templatePjt.querySelector('a').setAttribute('id', 'pjt' + idProject);
-                templatePjt.querySelector('a').setAttribute('href', '#portfolioModal' + idProject);
+                templatePjt.querySelector('a').setAttribute('href', `#portfolioModal${idProject}`);
                 templatePjt.querySelector('h4').innerHTML = project.name;
                 templatePjt.querySelector('.text-muted').innerHTML = project.type;
                 templatePjt.querySelector('img').src = 'projects/' + project.src + '/0.png';
@@ -191,12 +230,12 @@
                     type: 'image',
                     callbacks: {
                         open() {
-                            if(route[1] == 'info') {
+                            if (route[0] == '' || route[1] == 'info') {
                                 moreInfo(idProject)
                             }
                         },
                         close() {
-                            route[1] = undefined
+                            route = ['']
                         }
                     }
                 });
@@ -214,7 +253,7 @@
                 moreInfoContent.style.display = "none";
                 $(moreInfoContent).load('projects/' + project.src + '/readme.html', function () {
                     moreInfoContent.innerHTML = "<h3>" + project.name + "</h3>" + moreInfoContent.innerHTML +
-                        "<p><i><b>Data: </b>" + project.date + "</i></p>";
+                        "<p><i><b>Date: </b>" + project.date + "</i></p>";
                 });
                 footerModalBody.appendChild(moreInfoContent);
             }
@@ -234,8 +273,8 @@
                     for (index in projects) {
                         addNewProject(index, projects[index]);
                     }
-                    route = window.location.hash.replace('#','').split('/')
-                    $('#pjt'+route[0]).click()
+                    route = window.location.hash.replace('#', '').split('/')
+                    $('#pjt' + route[0]).click()
                 });
         </script>
 </body>
