@@ -1,18 +1,18 @@
 [{
     "name" : "Supervisory IoT",
-    "type" : "WebApp / Management",
+    "type" : "Web App / Management",
     "src" : "iot-supervisory",
     "len" : "4",
     "date" : "February 2019"
 },{
     "name" : "CREDE Reservas",
-    "type" : "WebApp / Management",
+    "type" : "Web App / Management",
     "src" : "crede-reservation",
     "len" : "4",
     "date" : "July 2018"
 },{
     "name" : "Crede News",
-    "type" : "WebApp / WebCrawler",
+    "type" : "Web App / Web Crawler",
     "src" : "credenews",
     "len" : "2",
     "date" : "June 2018"
@@ -24,7 +24,7 @@
     "date" : "April 2018"
 },{
     "name" : "Situation Room SIGE",
-    "type" : "WebCrawler / WebApp",
+    "type" : "Web Crawler / Web App",
     "src" : "situationroom",
     "len" : "3",
     "date" : "November 2017"
@@ -36,13 +36,13 @@
     "date" : "August 2017"
 },{
     "name" : "FastSkoob",
-    "type" : "WebCrawler / WebApp",
+    "type" : "Web Crawler / WebApp",
     "src" : "fastskoob",
     "len" : "3",
     "date" : "June 2017"
 },{
     "name" : "Orkidea StockControl",
-    "type" : "WebApp / Management",
+    "type" : "Web App / Management",
     "src" : "stockcontrol",
     "len" : "4",
     "date": "June 2017"
@@ -66,7 +66,7 @@
     "date" : "January 2015"
 },{
     "name" : "ScholarEvents",
-    "type" : "WebApp / Management",
+    "type" : "Web App / Management",
     "src" : "scholarevents",
     "len" : "4",
     "date" : "December 2014"
@@ -74,17 +74,17 @@
     "name" : "Internship Manager",
     "type" : "Desktop App / Management",
     "src" : "internshipmanager",
-    "len" : "3",
+    "len" : "4",
     "date" : "June 2014" 
 },{
     "name" : "Robodeck Simulation",
     "type" : "Desktop App / Simulator",
     "src" : "robodecksimulation",
-    "len" : "2",
+    "len" : "3",
     "date" : "February 2013"
 },{
     "name" : "SECITIF Site",
-    "type" : "WebApp / WebSite",
+    "type" : "Web App / Website",
     "src" : "secitif",
     "len" : "8",
     "date" : "November 2012"
