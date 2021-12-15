@@ -274,7 +274,8 @@
                 .fail(function (jqXHR, textStatus, errorThrown) {
                     console.log(textStatus, errorThrown);
                 }).done(function (projects) {
-                    for (index in projects) {
+                    projects.reverse();
+                    for (index of Object.keys(projects).reverse()) {
                         addNewProject(index, projects[index]);
                     }
                     route = window.location.hash.replace('#', '').split('/')
