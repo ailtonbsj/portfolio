@@ -29,10 +29,10 @@
     "len" : "3",
     "date" : "November 2017"
 },{
-    "name" : "Lubuntu Likeawin",
+    "name" : "WinuniX Project",
     "type" : "Linux Distro / Remaster",
-    "src" : "likeawin",
-    "len" : "1",
+    "src" : "winunix",
+    "len" : "7",
     "date" : "August 2017"
 },{
     "name" : "FastSkoob",
