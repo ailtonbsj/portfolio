@@ -7,6 +7,13 @@
     "date": "September 2022"
   },
   {
+    "name": "CREDE OS",
+    "type": "Web App / Management",
+    "src": "credeos",
+    "len": "1",
+    "date": "November 2020"
+  },
+  {
     "name": "Supervisory IoT",
     "type": "Web App / Management",
     "src": "iot-supervisory",
