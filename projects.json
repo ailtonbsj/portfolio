@@ -1,5 +1,12 @@
 [
   {
+    "name": "CREDE ERP",
+    "type": "Web App / Management",
+    "src": "credeerp",
+    "len": "3",
+    "date": "May 2023"
+  },
+  {
     "name": "SAUTE Web",
     "type": "PWA / Management",
     "src": "sauteweb",
