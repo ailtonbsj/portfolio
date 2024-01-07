@@ -28,6 +28,13 @@
     "date": "February 2019"
   },
   {
+    "name": "Free South Center",
+    "type": "Landing page",
+    "src": "centrosullivre",
+    "len": "1",
+    "date": "August 2018"
+  },
+  {
     "name": "CREDE Reservas",
     "type": "Web App / Management",
     "src": "crede-reservation",
